@@ -1,0 +1,8 @@
+ac_form.content:
+  path: '/admin/config/ac_form'
+  defaults:
+    _form:  '\Drupal\ac_form\Form\ModuleConfigurationForm'
+    _title: 'ac_form'
+  requirements:
+    _permission: 'administer site configuration'
+ 
