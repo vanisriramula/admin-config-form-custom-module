@@ -1,0 +1,4 @@
+{% for key,value in data %}
+  <strong>{{ 'Country:'|t }}</strong> {{ value.country|upper }}<br>
+  <strong>{{ 'Timezone:'|t }}</strong> {{ value.date }}<br>
+{% endfor %}
